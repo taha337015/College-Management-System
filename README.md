@@ -1,4 +1,3 @@
-# College-Management-System
 #include <iostream>
 #include <vector>
 #include <string>
@@ -100,14 +99,14 @@ public:
 
 int main() {
     College college;
-    college.addStudent("Alice", 20, "S101", "Computer Science");
-    college.addStudent("Bob", 22, "S102", "Mechanical Engineering");
-    college.addStaff("Dr. Smith", 45, "T201", "Computer Science Department");
-    college.addStaff("Dr. Brown", 50, "T202", "Mechanical Engineering Department");
+    college.addStudent("Taha", 20, "2312440", "Computer Science");
+    college.addStudent("Inam", 22, "2312400", "Mechanical Engineering");
+    college.addStaff("Dr. Ijlal", 45, "T201", "Computer Science Department");
+    college.addStaff("Dr. Tufail", 50, "T202", "Mechanical Engineering Department");
     college.addCourse("Data Structures", "CS101");
     college.addCourse("Thermodynamics", "ME102");
     college.displayStudents();
     college.displayStaff();
     college.displayCourses();
-    return 0;
+    return 0 ; 
 }
